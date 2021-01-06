@@ -1,0 +1,63 @@
+.Header{
+    flex-grow:1;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.Header-h1{
+    font-size: 40pt;
+    margin:0;
+    padding: 5px 0;
+    font-family: 'Gugi', cursive;
+}
+.Aside{
+    flex-grow: 1;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.Aside-li{
+    font-size: 20pt;
+    line-height: 45px;
+    font-family: 'Gugi', cursive;
+    cursor: pointer;
+}
+.Article{
+    flex-grow: 10;
+    text-align: center;
+    height: 100%;
+}
+.Footer{
+    flex-grow: 1;
+    border-top:1px solid black;
+    text-align: center;
+}
+.Calendar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 49vw;
+}
+.on{
+    color:pink;
+}
+.Add{
+    padding: 10pt;
+    font-size: 14pt;
+    font-family: 'Gugi', cursive;
+}
+.Add>input{
+    margin-bottom: 5pt;
+}
+@media(max-width:768px){
+    .Header-h1{
+        font-size: 20pt;
+    }
+    .Aside-li{
+        font-size: 15pt;
+        line-height: 25px;
+    }
+    .Calendar{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+    }
+  }

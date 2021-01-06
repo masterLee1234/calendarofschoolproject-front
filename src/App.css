@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container{
+  display: flex;
+  flex-grow: 50;
+}
+
+@media(max-width:768px){
+  .container{
+    flex-direction: column;
+  }
+}
